@@ -1,0 +1,9 @@
+# windows.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\um
+# winapifamily.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\shared
+# ctype.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\km\crt # Causes redefinition error?
+# ctype.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\ucrt
+# windows.security.cryptography.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\winrt
+# windows.security.cryptography.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\cppwinrt\winrt
+# inttypes.h X:\Program Files\Windows Kits\10\Include\10.0.22621.0\ucrt
+
+/p:IncludePath="X:\Program Files\Windows Kits\10\Include\10.0.22621.0\um;X:\Program Files\Windows Kits\10\Include\10.0.22621.0\ucrt;X:\Program Files\Windows Kits\10\Include\10.0.22621.0\shared;X:\Program Files\Windows Kits\10\Include\10.0.22621.0\winrt;$(IncludePath)"
